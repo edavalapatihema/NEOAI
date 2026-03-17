@@ -1,7 +1,7 @@
 # Automation PoC: Support Triage Tool
 
 ## Context
-For this assessment, I focused on Option 1 (Automated Enrichment)because accurate tagging is the upstream bottleneck that affects everything else (routing, reporting, and resolution time).
+For this assessment, I focused on Option 1,2,3 (Automated Enrichment)because accurate tagging is the upstream bottleneck that affects everything else (routing, reporting, and resolution time).
 
 My goal was to build a tool that could immediately start reducing triage time without needing complex infrastructure.
 
