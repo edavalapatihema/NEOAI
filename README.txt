@@ -1,5 +1,6 @@
-AI SOLUTIONS ENGINEER TAKE-HOME ASSESSMENT (CANDIDATE PACK)
-==========================================================
+ HEY BUDDIES , THIS IS THE SMALL POC WHICH I WORKED , TRY TO UNDERSTAND THE POC , THEN CLONE IT  
+
+Collabs are always welcome
 
 Context
 -------
@@ -48,15 +49,8 @@ Constraints
 - You may use any tools, but you must be able to explain and defend your approach.
 - Prioritize repeatability: another engineer should be able to re-run your workflow.
 
-Submission
-----------
-Please provide:
-- A short write-up (1–3 pages) with scope, approach, and tradeoffs,
-- Your working artifact (code/notebook/report) and instructions to run it,
-- Your build log / "show your work" notes.
 
-Timebox guidance
-----------------
+
 This is designed to be completable in ~3–6 hours. If you choose to go further, explain what you would do next and why.
 
 Good luck.
