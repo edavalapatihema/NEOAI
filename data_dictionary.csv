@@ -1,0 +1,27 @@
+file,field,type,description
+requests.csv,request_id,string,Unique request/ticket identifier
+requests.csv,created_at,datetime,Ticket creation timestamp (local time)
+requests.csv,resolved_at,datetime,Resolution timestamp (local time)
+requests.csv,channel,string,Where the request entered the system (Email/Slack/Jira/Teams/Form)
+requests.csv,requester_role,string,Role of requester (anonymized)
+requests.csv,requester_alias,string,Pseudonymous requester identifier
+requests.csv,department,string,Originating department (anonymized)
+requests.csv,product_area,string,General product/module area impacted
+requests.csv,environment,string,Environment affected (Production/Sandbox/UAT)
+requests.csv,priority,string,Reported priority (Low/Medium/High/Critical)
+requests.csv,request_type,string,General type of request
+requests.csv,business_impact,string,Self-reported business impact
+requests.csv,description,text,Unstructured issue description
+requests.csv,steps_taken,text,What was tried during triage
+requests.csv,resolution_notes,text,Unstructured resolution notes
+requests.csv,resolution_time_hours,number,"Time to resolve, in hours"
+requests.csv,escalated,boolean (0/1),Whether escalated beyond initial queue
+requests.csv,csat_score,integer 1-5 or null,Post-resolution satisfaction rating
+requests.csv,tags,string,Semi-colon delimited tags
+requests.csv,kb_article_helpful,boolean (0/1),Whether linked KB article was marked helpful
+kb_articles.csv,article_id,string,Knowledge base article id
+kb_articles.csv,title,string,Knowledge base article title
+kb_articles.csv,product_area,string,Applicable product/module area
+kb_articles.csv,last_updated,date,Last updated date
+kb_articles.csv,tags,string,Semi-colon delimited tags
+kb_articles.csv,body,text,Knowledge base content snippet
